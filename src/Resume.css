@@ -1,0 +1,48 @@
+.Resume {
+  text-align: center;
+  position: relative;
+}
+
+.Resume-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Resume-link{
+  color: #09d3ac;
+  text-decoration: none;
+  display: inline;
+  border: 1px solid #09d3ac;
+  transition: .5s;
+}
+
+.Resume-link:hover {
+    color: white;
+    background: #09d3ac;
+    border: 1px solid white;
+}
+.links {
+  display: inline;
+}
+.update{    
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.back {
+    font-size: 20px;
+}
+
+body {
+    background-color: #282c34;
+}
+
+.section-title, .title {
+    text-decoration: underline;
+}
