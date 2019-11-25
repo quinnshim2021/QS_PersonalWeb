@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "//quinnshim2021.github.io/QS_PersonalWeb/static/css/main.3e6aa532.chunk.css",
+    "main.js": "//quinnshim2021.github.io/QS_PersonalWeb/static/js/main.193b0938.chunk.js",
+    "main.js.map": "//quinnshim2021.github.io/QS_PersonalWeb/static/js/main.193b0938.chunk.js.map",
+    "runtime-main.js": "//quinnshim2021.github.io/QS_PersonalWeb/static/js/runtime-main.b31ff248.js",
+    "runtime-main.js.map": "//quinnshim2021.github.io/QS_PersonalWeb/static/js/runtime-main.b31ff248.js.map",
+    "static/js/2.b35355c8.chunk.js": "//quinnshim2021.github.io/QS_PersonalWeb/static/js/2.b35355c8.chunk.js",
+    "static/js/2.b35355c8.chunk.js.map": "//quinnshim2021.github.io/QS_PersonalWeb/static/js/2.b35355c8.chunk.js.map",
+    "index.html": "//quinnshim2021.github.io/QS_PersonalWeb/index.html",
+    "precache-manifest.7ccad3cf1e48d4d49964b41f1f4b02f3.js": "//quinnshim2021.github.io/QS_PersonalWeb/precache-manifest.7ccad3cf1e48d4d49964b41f1f4b02f3.js",
+    "service-worker.js": "//quinnshim2021.github.io/QS_PersonalWeb/service-worker.js",
+    "static/css/main.3e6aa532.chunk.css.map": "//quinnshim2021.github.io/QS_PersonalWeb/static/css/main.3e6aa532.chunk.css.map",
+    "static/media/profile.jpg": "//quinnshim2021.github.io/QS_PersonalWeb/static/media/profile.f7b7a176.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b31ff248.js",
+    "static/js/2.b35355c8.chunk.js",
+    "static/css/main.3e6aa532.chunk.css",
+    "static/js/main.193b0938.chunk.js"
+  ]
+}
