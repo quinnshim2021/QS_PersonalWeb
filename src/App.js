@@ -9,16 +9,16 @@ class Start extends Component {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={profile}></img>
-        <div class="typewriter">
+        <img src={profile} alt="img not available"></img>
+        <div className="typewriter">
           <h1>Hi, I'm Quinn</h1>
         </div>
-        <p>
-          Learn more about me!
-        </p>
-        <div class='links'>
+        <p>I study Computer Science and Political Science at Northwestern University, class of 2021.</p>
+        <p>I am passionate about Software Engineering, Social Justice, and making a social impact on my community.</p>
+        <p>Check out more about me!</p>
+        <div className='links'>
          {/* Link to Resume Component */}
-         <Link class="App-link" to='./Resume.js'>Resume</Link>
+         <Link className="App-link" to='./Resume.js'>Resume Page</Link>
           <a
             className="App-link"
             href="https://www.linkedin.com/in/quinn-shim/"

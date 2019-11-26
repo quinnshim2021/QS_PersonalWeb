@@ -13,6 +13,11 @@
   color: white;
 }
 
+img{
+  height: calc(500px + 2vmin);
+  width: calc(500px + 2vmin);
+}
+
 .App-link{
   color: #09d3ac;
   display: inline;
