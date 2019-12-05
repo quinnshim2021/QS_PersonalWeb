@@ -15,7 +15,7 @@ class Start extends Component {
         </div>
         <p>I study Computer Science and Political Science at Northwestern University, class of 2021.</p>
         <p>I am passionate about Software Engineering, Social Justice, and making a social impact on my community.</p>
-        <p>Check out more about me!</p>
+        <p>Follow the links below to find out more about me!</p>
         <div className='links'>
          {/* Link to Resume Component */}
          <Link className="App-link" to='./Resume.js'>Resume Page</Link>
