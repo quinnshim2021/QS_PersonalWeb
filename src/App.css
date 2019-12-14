@@ -1,21 +1,44 @@
 .App {
   text-align: center;
+  margin: calc(10px + 2vmin);
+  background-image: url("./QSLandscapeBig.jpg");
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 500px) {
+  .App {
+    text-align: center;
+    margin: calc(10px + 2vmin);
+    background-image: url("./QSLandscape.jpg");
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .App {
+    text-align: center;
+    margin: calc(10px + 2vmin);
+    background-image: url("./QSLandscapeMedium.jpg");
+    background-repeat: no-repeat;
+  }
 }
 
 .App-header {
-  background-color: #282c34;
+  padding-top: 200px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
-img{
-  height: calc(500px + 2vmin);
-  width: calc(500px + 2vmin);
+.homeText {
+  background: rgba(40, 44, 52, .8);
+  color: #F8F8FF;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .App-link{
@@ -28,6 +51,7 @@ img{
 }
 
 .typewriter h1 {
+  color: #09d3ac;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */

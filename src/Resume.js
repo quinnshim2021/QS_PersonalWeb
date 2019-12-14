@@ -57,32 +57,32 @@ const Resume = ({ }) => {
                 <ul>
                     <li>
                         <div>
-                            <p>Salesforce - Indianapolis, IN</p>
+                            <p>Salesforce - Indianapolis, IN - June 2019-September 2019</p>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <p>Evanston Development Cooperative - Evanston, IL</p>
+                            <p>Evanston Development Cooperative - Evanston, IL - January 2019-June 2019</p>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <p>Juni Learning - Virtual</p>
+                            <p>Juni Learning - Virtual - April 2019-Present</p>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <p>Develop + Innovate for Social Change - Evanston, IL</p>
+                            <p>Develop + Innovate for Social Change - Evanston, IL - December 2017-Present</p>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <p>Dot Dev - Evanston, IL</p>
+                            <p>Dot Dev - Evanston, IL - September 2017-December 2018</p>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <p>Zhang Anesthesiology Lab, University of Cincinnati College of Medicine - Cincinnati, OH</p>
+                            <p>Zhang Anesthesiology Lab, University of Cincinnati College of Medicine - Cincinnati, OH - June 2017-September 2017</p>
                         </div>
                     </li>
                 </ul>
