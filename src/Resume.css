@@ -1,6 +1,7 @@
 .Resume {
   text-align: center;
   position: relative;
+  margin: 20px;
 }
 
 .Resume-header {
@@ -27,6 +28,7 @@
   background: #09d3ac;
   border: 1px solid white;
 }
+
 .links {
   display: inline;
 }
@@ -113,4 +115,30 @@ li {
 .btn.active {
   background-color: #09d3ac;
   color: white;
+}
+
+table {
+  width: 80vw; 
+  border-collapse: collapse; 
+  border-spacing: 0;
+  
+  
+  margin: 0 auto;
+}
+td, th { border: 1px solid #CCC; } 
+
+.modalText{
+  color: black;
+}
+
+.projectButton {
+  text-decoration: underline;
+  border: none;
+  background: inherit;
+  color: #09d3ac;
+  cursor: pointer;
+}
+
+.w3-container{
+  background: #09d3ac;
 }
