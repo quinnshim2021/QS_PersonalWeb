@@ -39,7 +39,14 @@ class Start extends Component {
           </div>
         </div>
       </header>
+      {/* <footer>
+        <div>
+          <h1>Check out more about me!</h1>
+          <iframe src="https://open.spotify.com/embed/playlist/09DUi2TcirehlzoqctL1Dn" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+      </footer> */}
     </div>
+    
   );
   }
 }

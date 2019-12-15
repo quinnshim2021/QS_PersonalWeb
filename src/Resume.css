@@ -33,26 +33,35 @@
   display: inline;
 }
 .update{    
-  font-size: 12px;
+  font-size: 15px;
   text-decoration: none;
 }
 
 .back {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 body {
   background-color: #282c34;
 }
 
+section{
+  padding-bottom: 5vh;
+}
+
 .section-title, .title {
+  margin-bottom: 0px;
   text-decoration: underline;
+}
+
+ul{
+  margin-top: 0px;
 }
 
 .Resume-download {
   color: #09d3ac;
   text-decoration: none;
-  font-size: calc(10px + 2vmin);
+  font-size: 15px;
   transition: .5s;
 }
 

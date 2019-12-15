@@ -35,8 +35,8 @@ const Resume = ({ }) => {
   return (
     <div className="Resume">
         <div className="Resume-header">
-            <h1 className="title">Resume<p className="update">Updated 11/25/19</p><a className="Resume-download" href={resume} download>Download Resume as PDF</a></h1>
-            <section className="education"> {/*Northwestern then certificates*/}
+            <h1 className="title">Resume<p className="update">Updated 11/25/19 | <a className="Resume-download" href={resume} download>Download Resume as PDF</a></p></h1>
+            <section className="education"> 
                 <h2 className="section-title">Education</h2>
                 <ul>
                     <li>
