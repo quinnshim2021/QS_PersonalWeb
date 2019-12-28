@@ -44,7 +44,7 @@ const Resume = ({ }) => {
                             <p><b>Northwestern University</b> - Evanston, IL</p>
                             <p>BA in <b>Computer Science</b>, Minor in <b>Political Science</b>, Certificate in <b>Leadership</b></p>
                             <p>Expected Graduation: June 2021</p>
-                            <p>Cumulative GPA: 3.62</p>
+                            <p>Cumulative GPA: 3.64</p>
                         </div>
                     </li>
                 </ul>
@@ -187,10 +187,10 @@ const Resume = ({ }) => {
                                         <header className="w3-container w3-teal"> 
                                             <span onClick={() => {document.getElementById('id05').style.display='none'}}
                                             className="w3-button w3-display-topright">&times;</span>
-                                            <h2>Dean's List</h2>
+                                            <h2>Dean's List (4)</h2>
                                         </header>
                                         <div className="modalText">
-                                            <p>I received the honors of being on the Dean's List (quarter GPA higher than 3.7) in Winter '18, Winter '19, and Spring '19.</p>
+                                            <p>I received the honors of being on the Dean's List (quarter GPA higher than 3.7) in Winter '18, Winter '19, Spring '19, and Fall '19.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -257,6 +257,7 @@ const Resume = ({ }) => {
                     <div className="other all b">American Politics</div>
                     <div className="other all b">Tutoring</div>
                     <div className="other all b">Web Application Development</div>
+                    <div className="other all b">Agile Quadrant Testing</div>
                 </div>
             </section>
             <br></br>
