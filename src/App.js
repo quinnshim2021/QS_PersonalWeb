@@ -27,7 +27,16 @@ class Start extends Component {
             >
               LinkedIn
             </a>
-            |
+          |
+            <a
+              className="App-link"
+              href="https://github.com/quinnshim2021"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          |
             <a
               className="App-link"
               href="mailto:quinnshim2021@u.northwestern.edu"
