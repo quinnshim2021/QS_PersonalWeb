@@ -165,7 +165,7 @@ const Resume = ({ }) => {
                                             <h2>Published Chrome Extension</h2>
                                         </header>
                                         <div className="modalText">
-                                            <p>I created and published a Google Chrome Extension which uses web scraping to find a desired user on multiple social media websites.</p>
+                                            <p>I created and published a Google Chrome Extension which uses web scraping to find a desired user on multiple social media websites. Currently serving 60+ users.</p>
                                             <a target="_blank" href="https://chrome.google.com/webstore/detail/qsearch/nndbofegbeaookkpodpkaeaelndpljbl">QSearch on the Chrome web store</a>
                                         </div>
                                     </div>
