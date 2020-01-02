@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/QS_PersonalWeb/static/css/main.9fae56d5.chunk.css",
-    "main.js": "/QS_PersonalWeb/static/js/main.284a4ca4.chunk.js",
-    "main.js.map": "/QS_PersonalWeb/static/js/main.284a4ca4.chunk.js.map",
+    "main.css": "/QS_PersonalWeb/static/css/main.ee9ecec0.chunk.css",
+    "main.js": "/QS_PersonalWeb/static/js/main.60b60a0d.chunk.js",
+    "main.js.map": "/QS_PersonalWeb/static/js/main.60b60a0d.chunk.js.map",
     "runtime-main.js": "/QS_PersonalWeb/static/js/runtime-main.6ddf8cf9.js",
     "runtime-main.js.map": "/QS_PersonalWeb/static/js/runtime-main.6ddf8cf9.js.map",
     "static/js/2.90a869ec.chunk.js": "/QS_PersonalWeb/static/js/2.90a869ec.chunk.js",
     "static/js/2.90a869ec.chunk.js.map": "/QS_PersonalWeb/static/js/2.90a869ec.chunk.js.map",
     "index.html": "/QS_PersonalWeb/index.html",
-    "precache-manifest.fafa0e9dc2079da9f9be2fbc582a9ba3.js": "/QS_PersonalWeb/precache-manifest.fafa0e9dc2079da9f9be2fbc582a9ba3.js",
+    "precache-manifest.42f158d7d8100f2316f914a07afbd7b4.js": "/QS_PersonalWeb/precache-manifest.42f158d7d8100f2316f914a07afbd7b4.js",
     "service-worker.js": "/QS_PersonalWeb/service-worker.js",
-    "static/css/main.9fae56d5.chunk.css.map": "/QS_PersonalWeb/static/css/main.9fae56d5.chunk.css.map",
+    "static/css/main.ee9ecec0.chunk.css.map": "/QS_PersonalWeb/static/css/main.ee9ecec0.chunk.css.map",
     "static/media/App.css": "/QS_PersonalWeb/static/media/QSLandscapeMedium.cae4315f.jpg",
     "static/media/resume.pdf": "/QS_PersonalWeb/static/media/resume.0ac68963.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.6ddf8cf9.js",
     "static/js/2.90a869ec.chunk.js",
-    "static/css/main.9fae56d5.chunk.css",
-    "static/js/main.284a4ca4.chunk.js"
+    "static/css/main.ee9ecec0.chunk.css",
+    "static/js/main.60b60a0d.chunk.js"
   ]
 }
