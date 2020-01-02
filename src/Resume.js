@@ -91,6 +91,7 @@ const Resume = ({ }) => {
             </section>
             <section className="projects"> {/*Add work about Deployment Manager, publications, and projects I've worked on before, Deans list, high school className president, ap scholar*/}
                 <h2 className="section-title">Projects and Superlatives</h2>
+                <h5 className="section-subtitle"><u>For all technical project, please <a target="_blank" href="https://github.com/quinnshim2021">visit my GitHub</a>.</u></h5>
                 <ul>
                     <li>
                         <div>
@@ -112,12 +113,97 @@ const Resume = ({ }) => {
                     </li>
                     <li>
                         <div>
+                            <p>Salesforce Campus Ambassador</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
                             <div>
-                                <button onClick={() => {document.getElementById('id02').style.display='block';}} className="projectButton">Published Op Eds</button>
+                                <button onClick={() => {document.getElementById('id02').style.display='block';}} className="projectButton">Dean's List</button>
                                 <div id="id02" className="w3-modal">
                                     <div className="w3-modal-content w3-animate-top w3-card-4">
                                         <header className="w3-container w3-teal"> 
                                             <span onClick={() => {document.getElementById('id02').style.display='none'}}
+                                            className="w3-button w3-display-topright">&times;</span>
+                                            <h2>Dean's List (4)</h2>
+                                        </header>
+                                        <div className="modalText">
+                                            <p>I received the honors of being on the Dean's List (quarter GPA higher than 3.7) in Winter '18, Winter '19, Spring '19, and Fall '19.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>
+                                <button onClick={() => {document.getElementById('id03').style.display='block';}} className="projectButton">QSearch (Published Chrome Extension)</button>
+                                <div id="id03" className="w3-modal">
+                                    <div className="w3-modal-content w3-animate-top w3-card-4">
+                                        <header className="w3-container w3-teal"> 
+                                            <span onClick={() => {document.getElementById('id03').style.display='none'}}
+                                            className="w3-button w3-display-topright">&times;</span>
+                                            <h2>QSearch (Published Chrome Extension)</h2>
+                                        </header>
+                                        <div className="modalText">
+                                            <p>I created and published a Google Chrome Extension which uses web scraping to find a desired user on multiple social media websites. Currently serving 60+ users.</p>
+                                            <a target="_blank" href="https://chrome.google.com/webstore/detail/qsearch/nndbofegbeaookkpodpkaeaelndpljbl">QSearch on the Chrome web store</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>
+                                <button onClick={() => {document.getElementById('id04').style.display='block';}} className="projectButton">Yeet Code Chrome Extension</button>
+                                <div id="id04" className="w3-modal">
+                                    <div className="w3-modal-content w3-animate-top w3-card-4">
+                                        <header className="w3-container w3-teal"> 
+                                            <span onClick={() => {document.getElementById('id04').style.display='none'}}
+                                            className="w3-button w3-display-topright">&times;</span>
+                                            <h2>Yeet Code Chrome Extension</h2>
+                                        </header>
+                                        <div className="modalText">
+                                            <p>I created a Google Chrome Extension which uses public data to show which LeetCode problems are associated with companies. Used JavaScript, jQuery, and Chrome Storage.</p>
+                                            <a target="_blank" href="https://github.com/quinnshim2021/Yeet-Code-Chrome-Extension">Check out Yeet Code on GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>
+                                <button onClick={() => {document.getElementById('id05').style.display='block';}} className="projectButton">Map Tool - Evanston Development Cooperative</button>
+                                <div id="id05" className="w3-modal">
+                                    <div className="w3-modal-content w3-animate-top w3-card-4">
+                                        <header className="w3-container w3-teal"> 
+                                            <span onClick={() => {document.getElementById('id05').style.display='none'}}
+                                            className="w3-button w3-display-topright">&times;</span>
+                                            <h2>Map Tool - Evanston Development Cooperative</h2>
+                                        </header>
+                                        <div className="modalText">
+                                            <p>I worked with the Evanston Development Cooperative through Develop + Innovate for Social Change as both a full-stack developer and a team lead.</p>
+                                            <p>We built an interactive tool using the MapBox API to overlay property data from the city of Evanston on a map. Clicking a property would run a script I wrote to calculate if the property was compatible with EDC services.</p>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>
+                                <button onClick={() => {document.getElementById('id06').style.display='block';}} className="projectButton">Published Op Eds</button>
+                                <div id="id06" className="w3-modal">
+                                    <div className="w3-modal-content w3-animate-top w3-card-4">
+                                        <header className="w3-container w3-teal"> 
+                                            <span onClick={() => {document.getElementById('id06').style.display='none'}}
                                             className="w3-button w3-display-topright">&times;</span>
                                             <h2>Published Op Eds</h2>
                                         </header>
@@ -135,76 +221,11 @@ const Resume = ({ }) => {
                     <li>
                         <div>
                             <div>
-                                <button onClick={() => {document.getElementById('id03').style.display='block';}} className="projectButton">Map Tool - Evanston Development Cooperative</button>
-                                <div id="id03" className="w3-modal">
-                                    <div className="w3-modal-content w3-animate-top w3-card-4">
-                                        <header className="w3-container w3-teal"> 
-                                            <span onClick={() => {document.getElementById('id03').style.display='none'}}
-                                            className="w3-button w3-display-topright">&times;</span>
-                                            <h2>Map Tool - Evanston Development Cooperative</h2>
-                                        </header>
-                                        <div className="modalText">
-                                            <p>I worked with the Evanston Development Cooperative through Develop + Innovate for Social Change as both a full-stack developer and a team lead.</p>
-                                            <p>We built an interactive tool using the MapBox API to overlay property data from the city of Evanston on a map. Clicking a property would run a script I wrote to calculate if the property was compatible with EDC services.</p>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <div>
-                                <button onClick={() => {document.getElementById('id04').style.display='block';}} className="projectButton">Published Chrome Extension</button>
-                                <div id="id04" className="w3-modal">
-                                    <div className="w3-modal-content w3-animate-top w3-card-4">
-                                        <header className="w3-container w3-teal"> 
-                                            <span onClick={() => {document.getElementById('id04').style.display='none'}}
-                                            className="w3-button w3-display-topright">&times;</span>
-                                            <h2>Published Chrome Extension</h2>
-                                        </header>
-                                        <div className="modalText">
-                                            <p>I created and published a Google Chrome Extension which uses web scraping to find a desired user on multiple social media websites. Currently serving 60+ users.</p>
-                                            <a target="_blank" href="https://chrome.google.com/webstore/detail/qsearch/nndbofegbeaookkpodpkaeaelndpljbl">QSearch on the Chrome web store</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p>Salesforce Campus Ambassador</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <div>
-                                <button onClick={() => {document.getElementById('id05').style.display='block';}} className="projectButton">Dean's List</button>
-                                <div id="id05" className="w3-modal">
-                                    <div className="w3-modal-content w3-animate-top w3-card-4">
-                                        <header className="w3-container w3-teal"> 
-                                            <span onClick={() => {document.getElementById('id05').style.display='none'}}
-                                            className="w3-button w3-display-topright">&times;</span>
-                                            <h2>Dean's List (4)</h2>
-                                        </header>
-                                        <div className="modalText">
-                                            <p>I received the honors of being on the Dean's List (quarter GPA higher than 3.7) in Winter '18, Winter '19, Spring '19, and Fall '19.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <div>
-                                <button onClick={() => {document.getElementById('id06').style.display='block';}} className="projectButton">Questbridge Scholar</button>
-                                <div id="id06" className="w3-modal">
+                                <button onClick={() => {document.getElementById('id07').style.display='block';}} className="projectButton">Questbridge Scholar</button>
+                                <div id="id07" className="w3-modal">
                                     <div className="w3-modal-content w3-animate-top w3-card-4">
                                         <header className="w3-container"> 
-                                            <span onClick={() => {document.getElementById('id06').style.display='none'}}
+                                            <span onClick={() => {document.getElementById('id07').style.display='none'}}
                                             className="w3-button w3-display-topright">&times;</span>
                                             <h2>Questbridge Scholar</h2>
                                         </header>

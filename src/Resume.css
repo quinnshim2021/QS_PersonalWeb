@@ -56,6 +56,7 @@ section{
 
 ul{
   margin-top: 0px;
+  text-align: center;
 }
 
 .Resume-download {
@@ -150,4 +151,15 @@ td, th { border: 1px solid #CCC; }
 
 .w3-container{
   background: #09d3ac;
+}
+
+.project {
+  text-align: center;
+}
+
+.section-subtitle a {
+  color: #09d3ac;
+  text-decoration: none;
+  padding-top: 0px;
+  margin-top: 0px;
 }
