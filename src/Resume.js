@@ -60,7 +60,7 @@ const Resume = ({ }) => {
                     <tr>  
                         <td><b>Salesforce</b> - Indianapolis, IN</td>
                         <td>Software Engineering Intern</td>
-                        <td>6/2019-9/2019</td>
+                        <td>6/2019-9/2019, 6/2020-9/2020</td>
                     </tr>  
                     <tr>  
                         <td><b>Evanston Development Cooperative</b> - Evanston, IL</td>
@@ -74,7 +74,7 @@ const Resume = ({ }) => {
                     </tr>  
                     <tr>  
                         <td><b>Develop + Innovate for Social Change</b> - Evanston, IL</td>
-                        <td>Community/Recruitement Chair, Team Lead</td>
+                        <td>President</td>
                         <td>12/2017-Present</td>
                     </tr> 
                     <tr>  
@@ -279,6 +279,8 @@ const Resume = ({ }) => {
                     <div className="other all b">Tutoring</div>
                     <div className="other all b">Web Application Development</div>
                     <div className="other all b">Agile Quadrant Testing</div>
+                    <div className="other all b">Algorithm Analysis and Design</div>
+                    <div className="other all b">Natural Language Processing</div>
                 </div>
             </section>
             <br></br>
